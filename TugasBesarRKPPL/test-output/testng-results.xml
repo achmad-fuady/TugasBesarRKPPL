@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="48" started-at="2014-06-18T14:34:50Z" finished-at="2014-06-18T14:34:50Z">
+  <suite name="Default suite" duration-ms="294" started-at="2014-06-18T17:11:33Z" finished-at="2014-06-18T17:11:33Z">
     <groups>
       <group name="ETest">
-        <method signature="ETest.ListTest()[pri:0, instance:Testing.ETest@ba4d54]" name="ListTest" class="Testing.ETest"/>
-        <method signature="ETest.containsTest()[pri:0, instance:Testing.ETest@ba4d54]" name="containsTest" class="Testing.ETest"/>
+        <method signature="ETest.ListTest()[pri:0, instance:Testing.ETest@30e3c624]" name="ListTest" class="Testing.ETest"/>
+        <method signature="ETest.containsTest()[pri:0, instance:Testing.ETest@30e3c624]" name="containsTest" class="Testing.ETest"/>
       </group> <!-- ETest -->
     </groups>
-    <test name="Default test" duration-ms="48" started-at="2014-06-18T14:34:50Z" finished-at="2014-06-18T14:34:50Z">
+    <test name="Default test" duration-ms="294" started-at="2014-06-18T17:11:33Z" finished-at="2014-06-18T17:11:33Z">
       <class name="Testing.ETest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Testing.ETest@ba4d54]" name="setUp" is-config="true" duration-ms="9" started-at="2014-06-18T21:34:50Z" finished-at="2014-06-18T21:34:50Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Testing.ETest@30e3c624]" name="setUp" is-config="true" duration-ms="12" started-at="2014-06-19T00:11:33Z" finished-at="2014-06-19T00:11:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="ListTest()[pri:0, instance:Testing.ETest@ba4d54]" name="ListTest" duration-ms="21" started-at="2014-06-18T21:34:50Z" finished-at="2014-06-18T21:34:50Z">
+        <test-method status="PASS" signature="ListTest()[pri:0, instance:Testing.ETest@30e3c624]" name="ListTest" duration-ms="261" started-at="2014-06-19T00:11:33Z" finished-at="2014-06-19T00:11:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ListTest -->
-        <test-method status="PASS" signature="containsTest()[pri:0, instance:Testing.ETest@ba4d54]" name="containsTest" duration-ms="1" started-at="2014-06-18T21:34:50Z" finished-at="2014-06-18T21:34:50Z">
+        <test-method status="PASS" signature="containsTest()[pri:0, instance:Testing.ETest@30e3c624]" name="containsTest" duration-ms="2" started-at="2014-06-19T00:11:33Z" finished-at="2014-06-19T00:11:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- containsTest -->
