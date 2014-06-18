@@ -1,25 +1,28 @@
 /**
- * Dibuat Oleh Rezza
+ * Dibuat Oleh Mardiansyah Danar
  */
 package Class;
 
 import Interface.AddAndSubInterface;
 
+
 /**
- * @author Rezza Kurniawan - (mardiansyah)
+ * @author (mardiansyaah)
  *
  */
 public class A implements AddAndSubInterface{
 
 	
 	public A() {
+		//Konstruktor kelas A
 	       System.out.println("Ctor kelas A");
 	 }
 
 	@Override
 	public String toString() {
 	// TODO Auto-generated method stub
-	return "toString kelas B";
+	// Method toString kelas A
+	return "toString kelas A";
 	}
 
 	/* (non-Javadoc)
