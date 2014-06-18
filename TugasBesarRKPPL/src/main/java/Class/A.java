@@ -29,16 +29,16 @@ public class A implements AddAndSubInterface{
 	 * @see Interface.AddAndSubInterface#add(int, int)
 	 */
 	public int add(int n1, int n2) {
-		// TODO Auto-generated method stub
-		return 0;
+		// Operator Pertambahan
+		return n1+n2;
 	}
 
 	/* (non-Javadoc)
 	 * @see Interface.AddAndSubInterface#sub(int, int)
 	 */
 	public int sub(int n1, int n2) {
-		// TODO Auto-generated method stub
-		return 0;
+		// operator perkurangan
+		return n1-n2;
 	}
 
 	
