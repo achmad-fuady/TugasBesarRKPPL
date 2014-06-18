@@ -5,17 +5,76 @@ package Class;
 
 
 /**
- * @author Achmad
- *
+ * @author Achmad Fuady
+ * Kelas C adalah kelas yang mewarisi dari kelas abstract Math
+ * isi dari kelas ini untuk menghitung add, sub, mul, div, mod dan sqrt
  */
-public class C {
+public class C extends Math{
 	private double n1;
 	private double n2;
 	
-	public C(){}
-	public int add(){}
-	public int sub(){}
-	public double mul(){}
-	public double div(){}
-	public String toString(){return "";}
+	/*
+	 *	Konstruktor Dari Class C, akan di jalankan setiap class C di bangkitkan 
+	 */
+	public C() {
+		System.out.println("Konstruktor Kelas C");
+	}
+	
+	/*
+	 * Fungsi yang di implementasi yang mengembalikan nilai hitung dari A.add
+	 */
+	public int add(){
+		A a = new A();
+		return a.add(n1,n2);
+	}
+	
+	/*
+	 * Fungsi yang di implementasi yang mengembalikan nilai hitung dari A.sub
+	 */
+	public int sub(){
+		A a = new A();
+		return a.sub(n1,n2);
+	}
+	
+	/*
+	 * Fungsi yang di implementasi yang mengembalikan nilai hitung dari B.mul
+	 */
+	public double mul(){
+		B a = new B();
+		return b.mul(n1,n2);
+	}
+	
+	/*
+	 * Fungsi yang di implementasi yang mengembalikan nilai hitung dari B.div
+	 */
+	public double div(){
+		B a = new B();
+		return b.mul(n1,n2);
+	}
+
+	/* 
+	 * Method Override yang berfungsi untuk mengembalikan hasil hitung mod saat method ini dipanggil
+	 */
+	@Override
+	int mod(int n1, int n2) {
+		return n1%n2;
+	}
+
+	/* 
+	 * Method Override yang berfungsi untuk mengembalikan hasil hitung Math.sqrt saat method ini dipanggil
+	 */
+	@Override
+	double sqrt(double n) {
+		return java.lang.Math.sqrt(n);
+	}
+	
+	/* 
+	 * Method Override yang berfungsi untuk memunculkan hasil String saat method ini di panggil
+	 */
+	@Override
+	public String toString() {
+		StringBuilder result = new StringBuilder();
+		result.append("Ini Adalah toString dari Class D Implement PowInterface");
+		return result.toString();
+	}
 }
