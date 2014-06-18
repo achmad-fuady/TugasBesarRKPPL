@@ -6,7 +6,8 @@ import Interface.PowInterface;
 
 /**
  * @author Rezza Kurniawan - (Erka)
- *
+ * Kelas D adalah kelas yang menggunakan interface Pow
+ * isi dari kelas ini untuk menghitung math.pow
  */
 public class D implements PowInterface {
 
