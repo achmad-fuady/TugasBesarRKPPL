@@ -24,7 +24,7 @@ public class C extends Math{
 	 * Fungsi yang di implementasi yang mengembalikan nilai hitung dari A.add
 	 */
 	public int add(){
-		A a = new A();
+		B a = new B();
 		return a.add(n1,n2);
 	}
 	
@@ -32,7 +32,7 @@ public class C extends Math{
 	 * Fungsi yang di implementasi yang mengembalikan nilai hitung dari A.sub
 	 */
 	public int sub(){
-		A a = new A();
+		B a = new B();
 		return a.sub(n1,n2);
 	}
 	
