@@ -74,7 +74,7 @@ public class C extends Math{
 	@Override
 	public String toString() {
 		StringBuilder result = new StringBuilder();
-		result.append("Ini Adalah toString dari Class D Implement PowInterface");
+		result.append("Ini Adalah toString dari Class C Implement PowInterface");
 		return result.toString();
 	}
 }
