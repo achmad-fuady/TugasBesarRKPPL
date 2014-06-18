@@ -12,7 +12,7 @@ import Interface.PowInterface;
  */
 public class D implements PowInterface {
 
-	/**
+	/*
 	 *	Konstruktor Dari Class D, akan di jalankan setiap class D di bangkitkan 
 	 */
 	public D() {
@@ -23,7 +23,7 @@ public class D implements PowInterface {
 	 * Fungsi yang di implementasi yang mengembalikan nilai hitung dari Math.Pow
 	 */
 	public double pow(double n1, double n2) {
-		double result = Math.pow(n1, n2);
+		double result = java.lang.Math.pow(n1, n2);
 		return result;
 	}
 	
