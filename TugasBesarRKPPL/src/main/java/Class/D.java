@@ -1,3 +1,4 @@
+package Class;
 import Interface.PowInterface;
 
 /**

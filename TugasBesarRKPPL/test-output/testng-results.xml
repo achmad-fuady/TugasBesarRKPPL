@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="36" started-at="2014-06-18T13:48:08Z" finished-at="2014-06-18T13:48:08Z">
+    <groups>
+      <group name="Pow">
+        <method signature="PowTesting.powtest()[pri:0, instance:Testing.PowTesting@ba4d54]" name="powtest" class="Testing.PowTesting"/>
+      </group> <!-- Pow -->
+    </groups>
+    <test name="Default test" duration-ms="36" started-at="2014-06-18T13:48:08Z" finished-at="2014-06-18T13:48:08Z">
+      <class name="Testing.PowTesting">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Testing.PowTesting@ba4d54]" name="setUp" is-config="true" duration-ms="10" started-at="2014-06-18T20:48:08Z" finished-at="2014-06-18T20:48:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="powtest()[pri:0, instance:Testing.PowTesting@ba4d54]" name="powtest" duration-ms="10" started-at="2014-06-18T20:48:08Z" finished-at="2014-06-18T20:48:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- powtest -->
+      </class> <!-- Testing.PowTesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

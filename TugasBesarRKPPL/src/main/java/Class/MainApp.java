@@ -1,3 +1,4 @@
+package Class;
 /**
  * Dibuat Oleh Rezza
  */
