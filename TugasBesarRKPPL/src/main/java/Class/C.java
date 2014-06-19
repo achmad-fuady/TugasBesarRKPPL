@@ -25,7 +25,7 @@ public class C extends Math{
 	 */
 	public int add(){
 		A a = new A();
-		return a.add(n1,n2);
+		return a.add((int)n1,(int)n2);
 	}
 	
 	/*
@@ -33,7 +33,7 @@ public class C extends Math{
 	 */
 	public int sub(){
 		A a = new A();
-		return a.sub(n1,n2);
+		return a.sub((int)n1,(int)n2);
 	}
 	
 	/*
