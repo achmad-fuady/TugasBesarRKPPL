@@ -17,6 +17,5 @@ public class MainApp {
 		System.out.println("POW 2 & 3 = " + callD.pow(2, 3));
 		System.out.println(callD.toString());
 
-		
 	}
 }
