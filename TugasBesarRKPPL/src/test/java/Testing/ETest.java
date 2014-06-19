@@ -36,7 +36,7 @@ public class ETest {
 		actual.add("List 2");
 		callE.setDataList(actual);
 		
-		Assert.assertSame(callE.getDataList().countItems(), 2);
+		Assert.assertSame(callE.getDataList().getItemCount(), 2);
 	}
 	
 }
