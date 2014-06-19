@@ -10,8 +10,8 @@ package Class;
  * isi dari kelas ini untuk menghitung add, sub, mul, div, mod dan sqrt
  */
 public class C extends Math{
-	private double n1;
-	private double n2;
+	private double n1 = 4;
+	private double n2 2 ;
 	
 	/*
 	 *	Konstruktor Dari Class C, akan di jalankan setiap class C di bangkitkan 
