@@ -24,7 +24,7 @@ public class BTest {
 	@Test(groups = { "BTest" })
 	public void mulTest() {
 		B callD = new B();
-		Assert.assertEquals(callD.mul(10, 5), 150,"Salah");
+		Assert.assertEquals(callD.mul(10, 5), 150.0,"Salah");
 	}
 	
 	@Test(groups = { "BTest" })
