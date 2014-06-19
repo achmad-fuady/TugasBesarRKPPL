@@ -24,7 +24,7 @@ public class C extends Math{
 	 * Fungsi yang di implementasi yang mengembalikan nilai hitung dari A.add
 	 */
 	public int add(){
-		B a = new B();
+		A a = new A();
 		return a.add(n1,n2);
 	}
 	
@@ -32,7 +32,7 @@ public class C extends Math{
 	 * Fungsi yang di implementasi yang mengembalikan nilai hitung dari A.sub
 	 */
 	public int sub(){
-		B a = new B();
+		A a = new A();
 		return a.sub(n1,n2);
 	}
 	
@@ -40,7 +40,7 @@ public class C extends Math{
 	 * Fungsi yang di implementasi yang mengembalikan nilai hitung dari B.mul
 	 */
 	public double mul(){
-		B a = new B();
+		B b = new B();
 		return b.mul(n1,n2);
 	}
 	
@@ -48,7 +48,7 @@ public class C extends Math{
 	 * Fungsi yang di implementasi yang mengembalikan nilai hitung dari B.div
 	 */
 	public double div(){
-		B a = new B();
+		B b = new B();
 		return b.mul(n1,n2);
 	}
 
@@ -74,7 +74,7 @@ public class C extends Math{
 	@Override
 	public String toString() {
 		StringBuilder result = new StringBuilder();
-		result.append("Ini Adalah toString dari Class C Implement PowInterface");
+		result.append("Ini Adalah toString dari Class C yang mewarisi dari class Abstract Math");
 		return result.toString();
 	}
 }
