@@ -56,7 +56,7 @@ public class C extends Math{
 	 * Method Override yang berfungsi untuk mengembalikan hasil hitung mod saat method ini dipanggil
 	 */
 	@Override
-	int mod(int n1, int n2) {
+	public int mod(int n1, int n2) {
 		return n1%n2;
 	}
 
@@ -64,7 +64,7 @@ public class C extends Math{
 	 * Method Override yang berfungsi untuk mengembalikan hasil hitung Math.sqrt saat method ini dipanggil
 	 */
 	@Override
-	double sqrt(double n) {
+	public double sqrt(double n) {
 		return java.lang.Math.sqrt(n);
 	}
 	
