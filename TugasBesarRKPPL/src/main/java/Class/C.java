@@ -49,7 +49,7 @@ public class C extends Math{
 	 */
 	public double div(){
 		B b = new B();
-		return b.mul(n1,n2);
+		return b.div(n1,n2);
 	}
 
 	/* 
