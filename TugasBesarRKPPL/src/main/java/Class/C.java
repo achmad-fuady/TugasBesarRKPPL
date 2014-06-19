@@ -11,7 +11,7 @@ package Class;
  */
 public class C extends Math{
 	private double n1 = 4;
-	private double n2 2 ;
+	private double n2 = 2 ;
 	
 	/*
 	 *	Konstruktor Dari Class C, akan di jalankan setiap class C di bangkitkan 
