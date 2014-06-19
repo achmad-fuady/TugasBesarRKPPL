@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 import Class.B;
 
 /**
- * @author (mardiansyaah)
+ * @author mardiansyaah
  *
  */
 public class BTest {
@@ -24,7 +24,7 @@ public class BTest {
 	@Test(groups = { "BTest" })
 	public void mulTest() {
 		B callD = new B();
-		Assert.assertEquals(callD.mul(10.0, 5.0), 150.0,"Salah");
+		Assert.assertEquals(callD.mul(10, 5), 50.0,"Salah");
 	}
 	
 	@Test(groups = { "BTest" })
